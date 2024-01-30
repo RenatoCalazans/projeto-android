@@ -85,6 +85,7 @@ main > h2{
     font-family: var(--font-android);
     padding: 3px;
     border-radius: 0px 0px 5px 5px;
+    font-size: 22px;
 }
 main > p{
     margin: 15px 0px;
