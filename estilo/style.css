@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
@@ -9,6 +11,8 @@
     src: url('../fontes/idroid.otf');
     font-weight: normal;
 }
+
+
 :root{
     --cor0:#c5ebd6;
     --cor1:#83e1ad;
@@ -22,18 +26,26 @@
     --font-android:'android',cursive;
 
 }
+
+
 body{
     background-color: #83e1ad;
     
 }
+
+
 a.externo::after{
     content: '\00A0\1F517';
     font-size: 14px;
 }
+
+
 header{
     background-image: linear-gradient(to bottom, var(--cor2) , var(--cor5));
     padding: 40px;
 }
+
+
 header > h1{
     color: white;
     font-family: var(--fonte-destaque);
@@ -42,6 +54,8 @@ header > h1{
     padding: 10px;
     text-shadow: 2px 2px 3px black;
 }
+
+
 header > p{
     color: white;
     font-size: 20px;
@@ -49,10 +63,14 @@ header > p{
     text-align: center;
     text-shadow: 2px 2px 3px black;
 }
+
+
 nav{
     background-color: #1a5c37;
     padding: 3px;
 }
+
+
 nav > a{
     color: #83e1ad;
     padding: 5px;
@@ -61,11 +79,15 @@ nav > a{
     font-style: italic;
     font-family: var(--fonte-padrao);
 }
+
+
 nav > a:hover{
     background-color: #2fa866;
     text-decoration: underline;
     
 }
+
+
 main{
     background-color: white;
     min-width: 350px;
@@ -75,11 +97,15 @@ main{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
     border-radius: 0px 0px 10px 10px;
 }
+
+
 main > h1{
     font-family: var(--font-android);
     padding: 3px;
     border-radius: 0px 0px 5px 5px;
 }
+
+
 main > h2{
     background-image: linear-gradient(to right,#3ddc84,transparent);
     font-family: var(--font-android);
@@ -87,6 +113,8 @@ main > h2{
     border-radius: 0px 0px 5px 5px;
     font-size: 22px;
 }
+
+
 main > p{
     margin: 15px 0px;
     text-align: justify;
@@ -95,20 +123,28 @@ main > p{
     font-size: 18px;
     text-indent: 20px;
 }
+
+
 main a{
     background-color: #3ddc84;
     padding: 0px 5px;
     text-decoration: none;
     color: #1a5c37;
 }
+
+
 main img{
     width: 100%;
 }
+
+
 main img.pequena{
     width: 50%;
     display: block;
     margin: auto;
 }
+
+
 div.video{
     background-color: #1a5c37;
     margin:0px -10px 30px -10px ;
@@ -116,6 +152,8 @@ div.video{
     padding-bottom: 59%;
     position: relative;
 }
+
+
 div.video >iframe{
     position: absolute;
     top: 5%;
@@ -123,11 +161,15 @@ div.video >iframe{
     width: 90%;
     height: 90%;
 }
+
+
 aside{
     background-color: #83e1ad;
     border-radius: 10px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.548);
 }
+
+
 aside > h3{
     background-color: #1a5c37;
     padding: 8px;
@@ -138,31 +180,43 @@ aside > h3{
     text-align: center;
     font-size: 22px;
 }
+
+
 aside > p{
     text-align: justify;
     padding: 8px;
     font-family: var(--fonte-padrao);
     font-size: 17px;
 }
+
+
 aside > ul{
     list-style-type: '\2714\00A0';
     list-style-position: inside;
     columns: 2;
 }
+
+
 ul >li{
     color: black;
     font-weight: bold;
     font-style: italic;
 }
+
+
 ul > li:hover{
     color: red;
     text-decoration: underline;
 }
+
+
 footer{
     background-color: black;
     padding: 5px;
     margin-top: 20px;
 }
+
+
 footer > p{
     color: white;
     text-align: center;
